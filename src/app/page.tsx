@@ -69,7 +69,7 @@ export default function Home() {
   
   // Data de início dos jogos
   const dataInicioOuro = new Date(2025, 3, 1); // 1 de abril de 2025
-  const dataInicioPrata = new Date(2025, 5, 5); // 5 de junho de 2025
+  const dataInicioPrata = new Date(2025, 4, 5); // 5 de junho de 2025
   
   // Função para verificar se uma data está em um período de jogo ou de intervalo
   const ehDiaDeJogo = (data: Date, dataBase: Date): boolean => {
@@ -323,6 +323,8 @@ export default function Home() {
   atualizarPlacar('PEDRINHO', 'FUZUE', '3 X 1', jogosAgendadosPrata, dadosClassificacaoPrata);
   atualizarPlacar('FUZUE', 'CHRISTIAN', '1 X 3', jogosAgendadosPrata, dadosClassificacaoPrata);
   atualizarPlacar('PEDRINHO', 'CHRISTIAN', '3 X 1', jogosAgendadosPrata, dadosClassificacaoPrata);
+  atualizarPlacar('PAULO', 'RODRIGO', '3 X 1', jogosAgendadosPrata, dadosClassificacaoPrata);
+  atualizarPlacar('PAULO', 'AUGUSTO', '0 X 3', jogosAgendadosPrata, dadosClassificacaoPrata);
   
   // Limpar e reprocessar os dados de classificação para Série Ouro
   jogadoresOuro.forEach(jogador => {
@@ -473,7 +475,7 @@ export default function Home() {
                 
                 {jogosOuroData.map((dataJogos, index) => (
                   <div key={index} className="mb-6">
-                    <h3 className="text-xl font-bold mb-2 bg-green-800 text-white p-2">DIA {dataJogos.data}</h3>
+                    <h3 className="text-xl font-bold mb-2 bg-green-800 text-white p-2">DIA {dataJogos.data} - MESA 1 ás 19h</h3>
                     <div className="overflow-x-auto">
                       <table className="w-full border-collapse">
                         <tbody>
@@ -539,11 +541,12 @@ export default function Home() {
                 
                 {jogosPrataData.map((dataJogos, index) => (
                   <div key={index} className="mb-6">
-                    <h3 className="text-xl font-bold mb-2 bg-green-800 text-white p-2">DIA {dataJogos.data}</h3>
+                    <h3 className="text-xl font-bold mb-2 bg-green-800 text-white p-2">DIA {dataJogos.data} - MESA 2 ás 19h</h3>
                     <div className="overflow-x-auto">
                       <table className="w-full border-collapse">
                         <tbody>
                           {dataJogos.jogos.map((jogo, jogoIndex) => (
+                        
                             <tr 
                               key={jogoIndex} 
                               className={`${jogo.destaque ? 'bg-red-500 text-white' : 'border-b'}`}
