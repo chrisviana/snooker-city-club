@@ -8,25 +8,17 @@ export default function Home() {
 
   // Jogadores da Série Ouro
   const jogadoresOuro = [
-    'MACARINI', 'CLAUDINO', 'MANGILI', 'GUILHERME', 'PADILHA', 
-    'CESAR', 'ADALTO', 'COCA', 'JUAREZ', 'PAULISTA'
+    'JOGADOR1', 'JOGADOR2', 'JOGADOR3', 'JOGADOR4', 'JOGADOR5', 
+    'JOGADOR6', 'JOGADOR7', 'JOGADOR8', 'JOGADOR9', 'JOGADOR10'
   ];
   
   // Jogadores da Série Prata
   const jogadoresPrata = [
-    'PEDRINHO', 'FUZUE', 'FABIANO', 'PAULO C.', 'PAULO', 'RODRIGO', 
-    'AUGUSTO', 'GILBERTO', 'CHRISTIAN', 'FERNANDO', 'JUNIOR', 'RENATO'
+    'JOGADOR11', 'JOGADOR12', 'JOGADOR13', 'JOGADOR14', 'JOGADOR15', 'JOGADOR16', 
+    'JOGADOR17', 'JOGADOR18', 'JOGADOR19', 'JOGADOR20', 'JOGADOR21', 'JOGADOR22'
   ];
   
-  const jogosData = [
-    {
-      data: '17/09/24',
-      jogos: [
-        { jogador1: 'FUSUE', placar: '1 X 3', jogador2: 'PAULO', destaque: false },
-        { jogador1: 'AUGUSTO', placar: '2 X 1', jogador2: 'RODRIGO', destaque: false }
-      ]
-    },
-  ];
+ 
   
   // Definindo o tipo para o jogo
   type Jogo = {
@@ -68,7 +60,7 @@ export default function Home() {
   const confrontosPrata = gerarConfrontos(jogadoresPrata);
   
   // Data de início dos jogos
-  const dataInicioOuro = new Date(2025, 3, 1); // 1 de abril de 2025
+  const dataInicioOuro = new Date(2025, 4, 5); // 1 de abril de 2025
   const dataInicioPrata = new Date(2025, 4, 5); // 5 de junho de 2025
   
   // Função para verificar se uma data está em um período de jogo ou de intervalo
@@ -313,18 +305,18 @@ export default function Home() {
   };
   
   // Atualizar placares para Série Ouro
-  atualizarPlacar('MACARINI', 'CLAUDINO', '3 X 1', jogosAgendadosOuro, dadosClassificacaoOuro);
-  atualizarPlacar('MANGILI', 'GUILHERME', '0 X 3', jogosAgendadosOuro, dadosClassificacaoOuro);
-  atualizarPlacar('PADILHA', 'CESAR', '1 X 3', jogosAgendadosOuro, dadosClassificacaoOuro);
-  atualizarPlacar('ADALTO', 'COCA', '3 X 2', jogosAgendadosOuro, dadosClassificacaoOuro);
-  atualizarPlacar('JUAREZ', 'PAULISTA', '0 X 3', jogosAgendadosOuro, dadosClassificacaoOuro);
+  atualizarPlacar('JOGADOR1', 'JOGADOR2', '3 X 1', jogosAgendadosOuro, dadosClassificacaoOuro);
+  atualizarPlacar('JOGADOR3', 'JOGADOR4', '0 X 3', jogosAgendadosOuro, dadosClassificacaoOuro);
+  atualizarPlacar('JOGADOR5', 'JOGADOR6', '1 X 3', jogosAgendadosOuro, dadosClassificacaoOuro);
+  atualizarPlacar('JOGADOR7', 'JOGADOR8', '3 X 2', jogosAgendadosOuro, dadosClassificacaoOuro);
+  atualizarPlacar('JOGADOR9', 'JOGADOR10', '0 X 3', jogosAgendadosOuro, dadosClassificacaoOuro);
   
   // Atualizar placares para Série Prata
-  atualizarPlacar('PEDRINHO', 'FUZUE', '3 X 1', jogosAgendadosPrata, dadosClassificacaoPrata);
-  atualizarPlacar('FUZUE', 'CHRISTIAN', '1 X 3', jogosAgendadosPrata, dadosClassificacaoPrata);
-  atualizarPlacar('PEDRINHO', 'CHRISTIAN', '3 X 1', jogosAgendadosPrata, dadosClassificacaoPrata);
-  atualizarPlacar('PAULO', 'RODRIGO', '3 X 1', jogosAgendadosPrata, dadosClassificacaoPrata);
-  atualizarPlacar('PAULO', 'AUGUSTO', '0 X 3', jogosAgendadosPrata, dadosClassificacaoPrata);
+  atualizarPlacar('JOGADOR11', 'JOGADOR12', '3 X 1', jogosAgendadosPrata, dadosClassificacaoPrata);
+  atualizarPlacar('JOGADOR12', 'JOGADOR19', '1 X 3', jogosAgendadosPrata, dadosClassificacaoPrata);
+  atualizarPlacar('JOGADOR11', 'JOGADOR19', '3 X 1', jogosAgendadosPrata, dadosClassificacaoPrata);
+  atualizarPlacar('JOGADOR15', 'JOGADOR16', '3 X 1', jogosAgendadosPrata, dadosClassificacaoPrata);
+  atualizarPlacar('JOGADOR15', 'JOGADOR17', '0 X 3', jogosAgendadosPrata, dadosClassificacaoPrata);
   
   // Limpar e reprocessar os dados de classificação para Série Ouro
   jogadoresOuro.forEach(jogador => {
