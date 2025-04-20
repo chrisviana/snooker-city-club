@@ -68,7 +68,7 @@ export default function Home() {
   const confrontosPrata = gerarConfrontos(jogadoresPrata);
   
   // Data de início dos jogos
-  const dataInicioOuro = new Date(2025, 5, 5); // 1 de abril de 2025
+  const dataInicioOuro = new Date(2025, 3, 1); // 1 de abril de 2025
   const dataInicioPrata = new Date(2025, 5, 5); // 5 de junho de 2025
   
   // Função para verificar se uma data está em um período de jogo ou de intervalo
@@ -313,10 +313,16 @@ export default function Home() {
   };
   
   // Atualizar placares para Série Ouro
-
+  atualizarPlacar('MACARINI', 'CLAUDINO', '3 X 1', jogosAgendadosOuro, dadosClassificacaoOuro);
+  atualizarPlacar('MANGILI', 'GUILHERME', '0 X 3', jogosAgendadosOuro, dadosClassificacaoOuro);
+  atualizarPlacar('PADILHA', 'CESAR', '1 X 3', jogosAgendadosOuro, dadosClassificacaoOuro);
+  atualizarPlacar('ADALTO', 'COCA', '3 X 2', jogosAgendadosOuro, dadosClassificacaoOuro);
+  atualizarPlacar('JUAREZ', 'PAULISTA', '0 X 3', jogosAgendadosOuro, dadosClassificacaoOuro);
   
   // Atualizar placares para Série Prata
-
+  atualizarPlacar('PEDRINHO', 'FUZUE', '3 X 1', jogosAgendadosPrata, dadosClassificacaoPrata);
+  atualizarPlacar('FUZUE', 'CHRISTIAN', '1 X 3', jogosAgendadosPrata, dadosClassificacaoPrata);
+  atualizarPlacar('PEDRINHO', 'CHRISTIAN', '3 X 1', jogosAgendadosPrata, dadosClassificacaoPrata);
   
   // Limpar e reprocessar os dados de classificação para Série Ouro
   jogadoresOuro.forEach(jogador => {
