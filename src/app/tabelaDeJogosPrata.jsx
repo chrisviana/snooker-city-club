@@ -104,6 +104,8 @@ export default function TabelaJogosPrata() {
         const jogadoresDoDia = Array.from(
           new Set(dia.jogos.flatMap((j) => [j.jogador1, j.jogador2]))
         )
+
+         let arbitrosUsados = []
       
         return (
           <div
