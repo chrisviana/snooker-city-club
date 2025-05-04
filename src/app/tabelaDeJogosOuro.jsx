@@ -1,25 +1,25 @@
 import React, { useState } from "react"
-import { jogos } from "./db/prata"
+import { jogos } from "./db/ouro"
 
 const jogadores = [
-  "GUILHERME MELLER",
-  "JAIR MANIQUE",
-  "ADALTON",
-  "CHRISTIAN",
-  "FELIPE",
-  "EDUARDO",
-  "CHAPECÓ",
-  "EVERTON CORREA",
-  "FABIANO",
-  "PAULO SERGIO",
-  "AUGUSTO",
-  "PEDRINHO",
-  "FERNANDO",
-  "RENATO",
+  "GUILHERME",
+  "MACARINI",
+  "PAULO",
+  "COCA",
+  "JUNIOR",
+  "CLAUDINO",
+  "MANGILI",
+  "JUAREZ",
+  "CESAR",
+  "PAULISTA",
 ]
 
 // Função para sortear árbitro entre os jogadores do dia, exceto os que estão jogando na partida e já foram árbitros
-function getArbitro(jogo, jogadoresDoDia, usados = []) {
+function getArbitro(
+  jogo,
+  jogadoresDoDia,
+  usados = []
+) {
   // Elegíveis: quem joga no dia, mas não está no jogo atual e ainda não foi árbitro
   const elegiveis = jogadoresDoDia.filter(
     (nome) =>

@@ -1,21 +1,29 @@
 import React, { useState } from "react"
-import { jogos } from "./db/ouro"
+import { jogos } from "./db/prata"
 
 const jogadores = [
-  "GUILHERME",
-  "MACARINI",
-  "PAULO",
-  "COCA",
-  "JUNIOR",
-  "CLAUDINO",
-  "MANGILI",
-  "JUAREZ",
-  "CESAR",
-  "PAULISTA",
+  "GUILHERME MELLER",
+  "JAIR MANIQUE",
+  "ADALTON",
+  "CHRISTIAN",
+  "FELIPE",
+  "EDUARDO",
+  "CHAPECÓ",
+  "EVERTON CORREA",
+  "FABIANO",
+  "PAULO SERGIO",
+  "AUGUSTO",
+  "PEDRINHO",
+  "FERNANDO",
+  "RENATO",
 ]
 
 // Função para sortear árbitro entre os jogadores do dia, exceto os que estão jogando na partida e já foram árbitros
-function getArbitro(jogo, jogadoresDoDia, usados = []) {
+function getArbitro(
+  jogo,
+  jogadoresDoDia,
+  usados = []
+) {
   // Elegíveis: quem joga no dia, mas não está no jogo atual e ainda não foi árbitro
   const elegiveis = jogadoresDoDia.filter(
     (nome) =>
@@ -96,7 +104,7 @@ export default function TabelaJogosPrata() {
         const jogadoresDoDia = Array.from(
           new Set(dia.jogos.flatMap((j) => [j.jogador1, j.jogador2]))
         )
-        let arbitrosUsados = []
+      
         return (
           <div
             key={idx}

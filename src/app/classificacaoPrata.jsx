@@ -9,18 +9,39 @@ const jogadoresIniciais = [
     saldo: 0,
     jogos: 0,
   },
-  { nome: "MACARINI", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
-  { nome: "PAULO", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
-  { nome: "COCA", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
-  { nome: "JUNIOR", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
-  { nome: "CLAUDINO", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
-  { nome: "MANGILI", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
-  { nome: "JUAREZ", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
-  { nome: "CESAR", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
-  { nome: "PAULISTA", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
+  { nome: "ADALTON", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
+  { nome: "JAIR", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
+  {
+    nome: "CHRISTIAN",
+    pontos: 0,
+    vitorias: 0,
+    derrotas: 0,
+    saldo: 0,
+    jogos: 0,
+  },
+  { nome: "FELIPE", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
+  { nome: "EDUARDO", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
+  { nome: "CHAPECÓ", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
+  { nome: "EVERTON", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
+  { nome: "FABIANO", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
+  {
+    nome: "PAULO SERGIO",
+    pontos: 0,
+    vitorias: 0,
+    derrotas: 0,
+    saldo: 0,
+    jogos: 0,
+  },
+  { nome: "AUGUSTO", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
+  { nome: "PEDRINHO", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
+  { nome: "FERNANDO", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
+  { nome: "RENATO", pontos: 0, vitorias: 0, derrotas: 0, saldo: 0, jogos: 0 },
 ]
 
-function processarResultados(jogadores, resultados) {
+function processarResultados(
+  jogadores,
+  resultados
+) {
   const tabela = jogadores.map((j) => ({ ...j }))
 
   resultados.forEach(({ jogadorA, jogadorB, placar }) => {
@@ -62,10 +83,9 @@ export default function ClassificacaoOuro() {
 
   useEffect(() => {
     const resultados = [
-      // { jogadorA: "CESAR", jogadorB: "PAULISTA", placar: "3x1" },
-      // ... (deixe vazio até começar o campeonato)
+    // { jogadorA: "CESAR", jogadorB: "PAULISTA", placar: "3x1" },
+    // ... (deixe vazio até começar o campeonato)
     ]
-
     const novaTabela = processarResultados(jogadoresIniciais, resultados)
     setJogadores(novaTabela)
   }, [])
@@ -78,7 +98,7 @@ export default function ClassificacaoOuro() {
   return (
     <div>
       <h2 className="text-2xl font-bold mb-4 text-green-800 text-center">
-        Classificação Série Ouro
+        Classificação Série Prata{" "}
       </h2>
       <div className="overflow-x-auto">
         <table className="w-full border-collapse">
