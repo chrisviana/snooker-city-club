@@ -1,13 +1,13 @@
-'use client';
+"use client"
 
-import { useState } from 'react';
-import TabelaJogosOuro from './tabelaDeJogosOuro';
-import TabelaJogosPrata from './tabelaDeJogosPrata';
-import ClassificacaoOuro from './classificacaoOuro';
-import ClassificacaoPrata from './classificacaoPrata';
+import { useState } from "react"
+import TabelaJogosOuro from "./tabelaDeJogosOuro"
+import TabelaJogosPrata from "./tabelaDeJogosPrata"
+import ClassificacaoOuro from "./classificacaoOuro"
+import ClassificacaoPrata from "./classificacaoPrata"
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState('jogosOuro');
+  const [activeTab, setActiveTab] = useState("jogosOuro")
 
   return (
     <div className="min-h-screen bg-gray-100">
@@ -19,27 +19,43 @@ export default function Home() {
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           {/* Navegação com abas */}
           <div className="flex flex-wrap border-b">
-            <button 
-              className={`flex-1 py-3 font-medium ${activeTab === 'jogosOuro' ? 'bg-green-700 text-white' : 'bg-green-100 text-green-800'}`}
-              onClick={() => setActiveTab('jogosOuro')}
+            <button
+              className={`flex-1 py-3 font-medium ${
+                activeTab === "jogosOuro"
+                  ? "bg-green-700 text-white"
+                  : "bg-green-100 text-green-800"
+              }`}
+              onClick={() => setActiveTab("jogosOuro")}
             >
               Jogos Série Ouro
             </button>
-            <button 
-              className={`flex-1 py-3 font-medium ${activeTab === 'classificacaoOuro' ? 'bg-green-700 text-white' : 'bg-green-100 text-green-800'}`}
-              onClick={() => setActiveTab('classificacaoOuro')}
+            <button
+              className={`flex-1 py-3 font-medium ${
+                activeTab === "classificacaoOuro"
+                  ? "bg-green-700 text-white"
+                  : "bg-green-100 text-green-800"
+              }`}
+              onClick={() => setActiveTab("classificacaoOuro")}
             >
               Classificação Série Ouro
             </button>
-            <button 
-              className={`flex-1 py-3 font-medium ${activeTab === 'jogosPrata' ? 'bg-green-700 text-white' : 'bg-green-100 text-green-800'}`}
-              onClick={() => setActiveTab('jogosPrata')}
+            <button
+              className={`flex-1 py-3 font-medium ${
+                activeTab === "jogosPrata"
+                  ? "bg-green-700 text-white"
+                  : "bg-green-100 text-green-800"
+              }`}
+              onClick={() => setActiveTab("jogosPrata")}
             >
               Jogos Série Prata
             </button>
-            <button 
-              className={`flex-1 py-3 font-medium ${activeTab === 'classificacaoPrata' ? 'bg-green-700 text-white' : 'bg-green-100 text-green-800'}`}
-              onClick={() => setActiveTab('classificacaoPrata')}
+            <button
+              className={`flex-1 py-3 font-medium ${
+                activeTab === "classificacaoPrata"
+                  ? "bg-green-700 text-white"
+                  : "bg-green-100 text-green-800"
+              }`}
+              onClick={() => setActiveTab("classificacaoPrata")}
             >
               Classificação Série Prata
             </button>
@@ -47,34 +63,37 @@ export default function Home() {
 
           {/* Conteúdo das abas */}
           <div className="p-4">
-            {activeTab === 'jogosOuro' && (
+            {activeTab === "jogosOuro" && (
               <div>
-                <h2 className="text-2xl font-bold mb-4 text-green-800 text-center">Jogos Série Ouro</h2>
+                <h2 className="text-2xl font-bold mb-4 text-green-800 text-center">
+                  Jogos Série Ouro
+                </h2>
                 <TabelaJogosOuro />
               </div>
             )}
 
-            {activeTab === 'classificacaoOuro' && (
-              <ClassificacaoOuro />
-            )}
+            {activeTab === "classificacaoOuro" && <ClassificacaoOuro />}
 
-            {activeTab === 'jogosPrata' && (
+            {activeTab === "jogosPrata" && (
               <div>
-                <h2 className="text-2xl font-bold mb-4 text-green-800 text-center">Jogos Série Prata</h2>
+                <h2 className="text-2xl font-bold mb-4 text-green-800 text-center">
+                  Jogos Série Prata
+                </h2>
                 <TabelaJogosPrata />
               </div>
             )}
 
-            {activeTab === 'classificacaoPrata' && (
-              <ClassificacaoPrata />
-            )}
+            {activeTab === "classificacaoPrata" && <ClassificacaoPrata />}
           </div>
         </div>
       </div>
 
       <footer className="bg-green-900 text-white p-4 text-center mt-8">
-        <p>&copy; {new Date().getFullYear()} Snooker City Club - Todos os direitos reservados</p>
+        <p>
+          &copy; {new Date().getFullYear()} Desenvolvido por Christian Viana -
+          Todos os direitos reservados
+        </p>
       </footer>
     </div>
-  );
+  )
 }
