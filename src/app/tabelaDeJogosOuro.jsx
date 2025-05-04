@@ -14,21 +14,16 @@ const jogadores = [
   "PAULISTA",
 ]
 
-// Função para sortear árbitro entre os jogadores do dia, exceto os que estão jogando na partida e já foram árbitros
-function getArbitro(
-  jogo,
-  jogadoresDoDia,
-  usados = []
-) {
-  // Elegíveis: quem joga no dia, mas não está no jogo atual e ainda não foi árbitro
+// Função determinística: sempre retorna o primeiro elegível
+function getArbitro(jogo, jogadoresDoDia, usados = []) {
   const elegiveis = jogadoresDoDia.filter(
     (nome) =>
       nome !== jogo.jogador1 && nome !== jogo.jogador2 && !usados.includes(nome)
   )
   if (elegiveis.length === 0) return "Árbitro indefinido"
-  // Sorteio simples
-  const idx = Math.floor(Math.random() * elegiveis.length)
-  return elegiveis[idx]
+  return elegiveis[0]
+  // Se quiser variar entre os jogos do dia, use:
+  // return elegiveis[jogoIndex % elegiveis.length]
 }
 
 export default function TabelaJogosPrata() {
@@ -96,9 +91,12 @@ export default function TabelaJogosPrata() {
       )}
 
       {jogosFiltrados.map((dia, idx) => {
-        // Lista de todos jogadores que jogam no dia
+        // Pegue os jogos originais do dia para montar a lista de jogadores do dia
+        const jogosOriginaisDoDia = jogos.find(
+          d => d.data === dia.data && d.mesa === dia.mesa
+        )?.jogos || []
         const jogadoresDoDia = Array.from(
-          new Set(dia.jogos.flatMap((j) => [j.jogador1, j.jogador2]))
+          new Set(jogosOriginaisDoDia.flatMap((j) => [j.jogador1, j.jogador2]))
         )
         let arbitrosUsados = []
         return (
@@ -113,11 +111,12 @@ export default function TabelaJogosPrata() {
               <table className="w-full border-collapse">
                 <tbody>
                   {dia.jogos.map((jogo, j) => {
-                    // Sorteia árbitro elegível para o jogo
+                    // Sorteia árbitro elegível para o jogo (determinístico)
                     const arbitro = getArbitro(
                       jogo,
                       jogadoresDoDia,
                       arbitrosUsados
+                      // , j // descomente e ajuste a função se quiser variar pelo índice
                     )
                     if (arbitro !== "Árbitro indefinido") {
                       arbitrosUsados.push(arbitro)
