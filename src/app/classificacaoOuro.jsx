@@ -80,6 +80,9 @@ export default function ClassificacaoOuro() {
       <h2 className="text-2xl font-bold mb-4 text-green-800 text-center">
         Classificação Série Ouro
       </h2>
+      <div className="mb-4 text-center font-semibold text-gray-800">
+        Maior tacada até o momento série Ouro:
+      </div>
       <div className="overflow-x-auto">
         <table className="w-full border-collapse">
           <thead className="bg-green-700 text-white">
@@ -113,9 +116,11 @@ export default function ClassificacaoOuro() {
               <tr
                 key={jogador.nome}
                 className={
-                  idx % 2 === 0
-                    ? "bg-green-50 hover:bg-green-100"
-                    : "bg-white hover:bg-green-100"
+                  idx < 2
+                    ? "bg-green-200 hover:bg-green-300 border-l-4 border-l-green-600" // 2 primeiros classificados
+                    : idx >= 2 && idx <= 7
+                    ? "bg-yellow-50 hover:bg-yellow-100" // 3º ao 8º
+                    : "bg-red-100 hover:bg-red-200" // 2 últimos rebaixados
                 }
               >
                 <td className="py-2 px-4 text-center font-bold border">

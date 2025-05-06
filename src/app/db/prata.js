@@ -3,16 +3,16 @@ export const jogos = [
     data: "05/05/2025",
     mesa: "1",
     jogos: [
-      { jogador1: "AUGUSTO", jogador2: "CHRISTIAN", placar: "0 x 0" },
-      { jogador1: "FERNANDO", jogador2: "ADALTON", placar: "0 x 0" },
+      { jogador1: "AUGUSTO", jogador2: "CHRISTIAN", placar: "3 x 2" },
+      { jogador1: "FERNANDO", jogador2: "ADALTON", placar: "3 x 0" },
     ],
   },
   {
     data: "05/05/2025",
     mesa: "2",
     jogos: [
-      { jogador1: "RENATO", jogador2: "CHAPECÓ", placar: "0 x 0" },
-      { jogador1: "FELIPE", jogador2: "PEDRINHO", placar: "0 x 0" },
+      { jogador1: "RENATO", jogador2: "CHAPECÓ", placar: "3 x 1" },
+      { jogador1: "FELIPE", jogador2: "PEDRINHO", placar: "3 x 1" },
     ],
   },
   {
