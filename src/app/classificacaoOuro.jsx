@@ -83,7 +83,7 @@ export default function ClassificacaoOuro() {
         Classificação Série Ouro
       </h2>
       <div className="mb-4 text-center font-semibold text-gray-800">
-        Maior tacada até o momento série Ouro:
+        Maior tacada até o momento série Ouro: 25 pontos Paulista
       </div>
       <div className="overflow-x-auto">
         <table className="w-full border-collapse">
