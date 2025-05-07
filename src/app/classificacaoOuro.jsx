@@ -64,6 +64,7 @@ export default function ClassificacaoOuro() {
     const resultados = [
       { jogadorA: "MACARINI", jogadorB: "PAULO", placar: "3x0" },
       { jogadorA: "CESAR", jogadorB: "PAULISTA", placar: "0x3" },
+      { jogadorA: "GUILHERME", jogadorB: "JUAREZ", placar: "3x2" },
       // ... (deixe vazio até começar o campeonato)
     ]
 
