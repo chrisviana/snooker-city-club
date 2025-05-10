@@ -20,7 +20,7 @@ export const jogos = [
     mesa: "1",
     jogos: [
       { jogador1: "CESAR", jogador2: "PAULISTA", placar: "0 x 3" },
-      { jogador1: "PAULO", jogador2: "GUILHERME", placar: "0 x 0" },
+      { jogador1: "PAULO", jogador2: "GUILHERME", placar: "3 x 1" },
     ],
   },
   {
