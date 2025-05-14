@@ -96,6 +96,10 @@ export default function ClassificacaoOuro() {
     { jogadorA: "EDUARDO", jogadorB: "EVERTON", placar: "2x3" },
     { jogadorA: "CHAPECÓ", jogadorB: "FERNANDO", placar: "0x3" },
     { jogadorA: "GUILHERME", jogadorB: "FABIANO", placar: "3x0" },
+    { jogadorA: "JAIR", jogadorB: "FELIPE", placar: "1x3" },
+    { jogadorA: "FELIPE", jogadorB: "EDUARDO", placar: "3x2" },
+    { jogadorA: "CHAPECÓ", jogadorB: "ADALTON", placar: "3x2" },
+
 
     ]
     const novaTabela = processarResultados(jogadoresIniciais, resultados)
