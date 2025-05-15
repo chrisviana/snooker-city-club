@@ -341,7 +341,7 @@ export const jogos = [
       { jogador1: "JAIR MANIQUE", jogador2: "FABIANO", placar: "0 x 3" },
       { jogador1: "CHAPECÓ", jogador2: "FABIANO", placar: "0 x 3" },
       { jogador1: "FABIANO", jogador2: "FERNANDO", placar: "0 x 3" },
-      { jogador1: "RENATO", jogador2: "FABIANO", placar: "0 x 3" },
+      { jogador1: "RENATO", jogador2: "FABIANO", placar: "3 x 0" },
       { jogador1: "FABIANO", jogador2: "FELIPE", placar: "0 x 3" },
       { jogador1: "AUGUSTO", jogador2: "FABIANO", placar: "0 x 3" },
     ],
