@@ -110,8 +110,18 @@ export default function ClassificacaoOuro() {
     { jogadorA: "FABIANO", jogadorB: "FERNANDO", placar: "0 x 3" },
     { jogadorA: "RENATO", jogadorB: "FABIANO", placar: "3 x 0" },
     { jogadorA: "FABIANO", jogadorB: "FELIPE", placar: "0 x 3" },
-     { jogadorA: "AUGUSTO", jogadorB: "FABIANO", placar: "3 x 0" },
-     { jogadorA: "FABIANO", jogadorB: "CHRISTIAN", placar: "0 x 3" },
+    { jogadorA: "AUGUSTO", jogadorB: "FABIANO", placar: "3 x 0" },
+    { jogadorA: "FABIANO", jogadorB: "CHRISTIAN", placar: "0 x 3" },
+    { jogadorA: "FERNANDO", jogadorB: "PEDRINHO", placar: "0 x 3" },
+    { jogadorA: "PEDRINHO", jogadorB: "CHAPECÓ", placar: "0 x 3" },
+    { jogadorA: "PEDRINHO", jogadorB: "ADALTON", placar: "0 x 3" },
+    { jogadorA: "JAIR", jogadorB: "PEDRINHO", placar: "3 x 0" },
+    { jogadorA: "PEDRINHO", jogadorB: "EDUARDO", placar: "0 x 3" },
+    { jogadorA: "GUILHERME", jogadorB: "PEDRINHO", placar: "3 x 0" },
+    { jogadorA: "PEDRINHO", jogadorB: "CHRISTIAN", placar: "0 x 3" },
+    { jogadorA: "AUGUSTO", jogadorB: "PEDRINHO", placar: "3 x 0" },
+    { jogadorA: "PEDRINHO", jogadorB: "PAULO SERGIO", placar: "0 x 3" },
+    { jogadorA: "EVERTON", jogadorB: "PEDRINHO", placar: "3 x 0" },
 
 
 
@@ -122,6 +132,11 @@ export default function ClassificacaoOuro() {
   }, [])
 
   const jogadoresOrdenados = [...jogadores].sort((a, b) => {
+    // Colocar PEDRINHO e FABIANO nos últimos lugares
+    if (a.nome === "PEDRINHO" || a.nome === "FABIANO") return 1;
+    if (b.nome === "PEDRINHO" || b.nome === "FABIANO") return -1;
+    
+    // Ordenação normal para os demais jogadores
     if (b.pontos !== a.pontos) return b.pontos - a.pontos
     return b.saldo - a.saldo
   })
@@ -167,7 +182,9 @@ export default function ClassificacaoOuro() {
               <tr
                 key={jogador.nome}
                 className={
-                  idx < 2
+                  jogador.nome === "PEDRINHO" || jogador.nome === "FABIANO"
+                  ? "bg-red-300 hover:bg-red-400 border-l-4 border-l-red-600" // PEDRINHO ou FABIANO
+                  : idx < 2
                     ? "bg-green-200 hover:bg-green-300 border-l-4 border-l-green-600" // 2 primeiros classificados
                     : idx >= 2 && idx <= 9
                     ? "bg-blue-50 hover:bg-blue-100" // 3º ao 10º
