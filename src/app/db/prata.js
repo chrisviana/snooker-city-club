@@ -83,8 +83,8 @@ export const jogos = [
     data: "19/05/2025",
     mesa: "1",
     jogos: [
-      { jogador1: "GUILHERME MELLER", jogador2: "FELIPE", placar: "0 x 0" },
-      { jogador1: "JAIR MANIQUE", jogador2: "FERNANDO", placar: "0 x 0" },
+      { jogador1: "GUILHERME MELLER", jogador2: "FELIPE", placar: "3 x 1" },
+      { jogador1: "JAIR MANIQUE", jogador2: "FERNANDO", placar: "3 x 2" },
     ],
   },
   {
@@ -92,7 +92,7 @@ export const jogos = [
     mesa: "2",
     jogos: [
       { jogador1: "AUGUSTO", jogador2: "PAULO SERGIO", placar: "3 x 0" },
-      { jogador1: "CHRISTIAN", jogador2: "EVERTON CORREA", placar: "0 x 0" },
+      { jogador1: "CHRISTIAN", jogador2: "EVERTON CORREA", placar: "3 x 0" },
     ],
   },
   {
