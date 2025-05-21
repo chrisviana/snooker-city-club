@@ -126,6 +126,7 @@ export default function ClassificacaoOuro() {
     { jogadorA: "GUILHERME", jogadorB: "FELIPE", placar: "3 x 1" },
     { jogadorA: "JAIR", jogadorB: "FERNANDO", placar: "3 x 2" },
     { jogadorA: "CHRISTIAN", jogadorB: "EVERTON CORREA", placar: "3 x 0" },
+    { jogadorA: "FERNANDO", jogadorB: "EDUARDO", placar: "3 x 2" },
 
 
 
@@ -152,7 +153,7 @@ export default function ClassificacaoOuro() {
         Classificação Série Prata{" "}
       </h2>
       <div className="mb-4 text-center font-semibold text-gray-800">
-        Maior tacada até o momento série Prata: 19 pontos Christian
+        Maior tacada até o momento série Prata: 21 pontos Fernando
       </div>
       <div className="overflow-x-auto">
         <table className="w-full border-collapse">
