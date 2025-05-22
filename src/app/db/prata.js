@@ -107,8 +107,8 @@ export const jogos = [
     data: "21/05/2025",
     mesa: "2",
     jogos: [
-      { jogador1: "RENATO", jogador2: "GUILHERME MELLER", placar: "0 x 0" },
-      { jogador1: "CHAPECÓ", jogador2: "JAIR MANIQUE", placar: "0 x 0" },
+      { jogador1: "RENATO", jogador2: "GUILHERME MELLER", placar: "1 x 3" },
+      { jogador1: "CHAPECÓ", jogador2: "JAIR MANIQUE", placar: "0 x 3" },
     ],
   },
   {
