@@ -43,7 +43,7 @@ export const jogos = [
     data: "15/05/2025",
     mesa: "1",
     jogos: [
-      { jogador1: "MACARINI", jogador2: "CLAUDINO", placar: "0 x 0" },
+      { jogador1: "MACARINI", jogador2: "CLAUDINO", placar: "3 x 2" },
       { jogador1: "COCA", jogador2: "PAULO", placar: "0 x 0" },
     ],
   },
@@ -76,7 +76,7 @@ export const jogos = [
     mesa: "1",
     jogos: [
       { jogador1: "MACARINI", jogador2: "PAULISTA", placar: "0 x 0" },
-      { jogador1: "COCA", jogador2: "CLAUDINO", placar: "0 x 0" },
+      { jogador1: "COCA", jogador2: "CLAUDINO", placar: "1 x 3" },
     ],
   },
   {

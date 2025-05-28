@@ -140,8 +140,8 @@ export const jogos = [
     data: "27/05/2025",
     mesa: "2",
     jogos: [
-      { jogador1: "AUGUSTO", jogador2: "FELIPE", placar: "0 x 0" },
-      { jogador1: "PAULO SERGIO", jogador2: "EVERTON CORREA", placar: "0 x 0" },
+      { jogador1: "AUGUSTO", jogador2: "FELIPE", placar: "2 x 3" },
+      { jogador1: "PAULO SERGIO", jogador2: "EVERTON CORREA", placar: "0 x 3" },
       
     ],
   },
@@ -149,7 +149,7 @@ export const jogos = [
     data: "28/05/2025",
     mesa: "2",
     jogos: [
-     { jogador1: "JAIR MANIQUE", jogador2: "ADALTON", placar: "0 x 0" },
+     { jogador1: "JAIR MANIQUE", jogador2: "ADALTON", placar: "2 x 3" },
      { jogador1: "FELIPE", jogador2: "PAULO SERGIO", placar: "0 x 0" },
       
       
@@ -319,7 +319,7 @@ export const jogos = [
       { jogador1: "FABIANO", jogador2: "FERNANDO", placar: "0 x 3" },
       { jogador1: "RENATO", jogador2: "FABIANO", placar: "3 x 0" },
       { jogador1: "FABIANO", jogador2: "FELIPE", placar: "0 x 3" },
-      { jogador1: "AUGUSTO", jogador2: "FABIANO", placar: "0 x 3" },
+      { jogador1: "AUGUSTO", jogador2: "FABIANO", placar: "3 x 0" },
       { jogador1: "PEDRINHO", jogador2: "CHAPECÓ", placar: "0 x 3" },
       { jogador1: "PEDRINHO", jogador2: "ADALTON", placar: "0 x 3" },
       { jogador1: "JAIR MANIQUE", jogador2: "PEDRINHO", placar: "3 x 0" },
