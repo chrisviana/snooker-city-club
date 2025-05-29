@@ -123,7 +123,7 @@ export const jogos = [
     data: "26/05/2025",
     mesa: "1",
     jogos: [
-      { jogador1: "EVERTON CORREA", jogador2: "AUGUSTO", placar: "0 x 0" },
+      { jogador1: "EVERTON CORREA", jogador2: "AUGUSTO", placar: "3 x 0" },
       { jogador1: "GUILHERME MELLER", jogador2: "FERNANDO", placar: "3 x 1" },
       
     ],
@@ -150,7 +150,7 @@ export const jogos = [
     mesa: "2",
     jogos: [
      { jogador1: "JAIR MANIQUE", jogador2: "ADALTON", placar: "2 x 3" },
-     { jogador1: "FELIPE", jogador2: "PAULO SERGIO", placar: "0 x 0" },
+     { jogador1: "FELIPE", jogador2: "PAULO SERGIO", placar: "3 x 1" },
       
       
     ],
@@ -195,7 +195,8 @@ export const jogos = [
     mesa: "2",
     jogos: [
     { jogador1: "PAULO SERGIO", jogador2: "RENATO", placar: "0 x 0" },
-       { jogador1: "FERNANDO", jogador2: "PAULO SERGIO", placar: "0 x 0" },
+    { jogador1: "FELIPE", jogador2: "EVERTON CORREA", placar: "0 x 0" },
+      
     ],
   },
   {
@@ -210,15 +211,15 @@ export const jogos = [
     data: "09/06/2025",
     mesa: "1",
     jogos: [
-        { jogador1: "FELIPE", jogador2: "EVERTON CORREA", placar: "0 x 0" },
+      { jogador1: "FERNANDO", jogador2: "PAULO SERGIO", placar: "0 x 0" },
       { jogador1: "EDUARDO", jogador2: "ADALTON", placar: "0 x 0" },
     ],
   },
   {
     data: "09/06/2025",
     mesa: "2",
-    jogos: [{ jogador1: "PAULO SERGIO", jogador2: "CHAPECÓ", placar: "0 x 0" },
-     
+    jogos: [
+      { jogador1: "PAULO SERGIO", jogador2: "CHAPECÓ", placar: "0 x 0" },
       { jogador1: "EVERTON CORREA", jogador2: "RENATO", placar: "0 x 0" },
      
     ],
@@ -237,8 +238,7 @@ export const jogos = [
     data: "11/06/2025",
     mesa: "2",
     jogos: [
-        
-      { jogador1: "RENATO", jogador2: "ADALTON", placar: "0 x 0" },
+        { jogador1: "JAIR MANIQUE", jogador2: "AUGUSTO", placar: "0 x 0" },
         { jogador1: "ADALTON", jogador2: "GUILHERME MELLER", placar: "0 x 0" },
     ],
   },
@@ -255,7 +255,7 @@ export const jogos = [
     data: "16/06/2025",
     mesa: "1",
     jogos: [
-        { jogador1: "JAIR MANIQUE", jogador2: "AUGUSTO", placar: "0 x 0" },
+        { jogador1: "RENATO", jogador2: "ADALTON", placar: "0 x 0" },   
         { jogador1: "EDUARDO", jogador2: "CHRISTIAN", placar: "0 x 0" },
        
     ],
