@@ -159,7 +159,7 @@ export const jogos = [
     data: "29/05/2025",
     mesa: "2",
     jogos: [
-      { jogador1: "FERNANDO", jogador2: "CHRISTIAN", placar: "0 x 0" },
+      { jogador1: "FERNANDO", jogador2: "CHRISTIAN", placar: "0 x 3" },
       { jogador1: "RENATO", jogador2: "AUGUSTO", placar: "0 x 0" },
     ],
   },
