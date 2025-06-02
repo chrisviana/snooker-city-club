@@ -44,7 +44,7 @@ export const jogos = [
     mesa: "1",
     jogos: [
       { jogador1: "MACARINI", jogador2: "CLAUDINO", placar: "3 x 2" },
-      { jogador1: "COCA", jogador2: "PAULO", placar: "0 x 0" },
+      { jogador1: "COCA", jogador2: "PAULO", placar: "0 x 3" },
     ],
   },
   {
