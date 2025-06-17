@@ -255,7 +255,7 @@ export const jogos = [
     data: "16/06/2025",
     mesa: "1",
     jogos: [
-        { jogador1: "RENATO", jogador2: "ADALTON", placar: "0 x 0" },   
+        { jogador1: "RENATO", jogador2: "ADALTON", placar: "0 x 3" },   
         { jogador1: "EDUARDO", jogador2: "CHRISTIAN", placar: "2 x 3" },
        
     ],
@@ -265,8 +265,8 @@ export const jogos = [
     mesa: "2",
     jogos: [
      
-      { jogador1: "FELIPE", jogador2: "FERNANDO", placar: "0 x 0" },
-      { jogador1: "EVERTON CORREA", jogador2: "CHAPECÓ", placar: "0 x 0" },
+      { jogador1: "FELIPE", jogador2: "FERNANDO", placar: "2 x 3" },
+      { jogador1: "EVERTON CORREA", jogador2: "CHAPECÓ", placar: "3 x 0" },
       
     ],
   },
@@ -274,8 +274,8 @@ export const jogos = [
     data: "17/06/2025",
     mesa: "2",
     jogos: [
-     { jogador1: "AUGUSTO", jogador2: "EDUARDO", placar: "0 x 0" },
-        { jogador1: "ADALTON", jogador2: "GUILHERME MELLER", placar: "0 x 0" },
+     { jogador1: "AUGUSTO", jogador2: "EDUARDO", placar: "0 x 3" },
+      { jogador1: "ADALTON", jogador2: "GUILHERME MELLER", placar: "3 x 0" },
       
     ],
   },
@@ -302,7 +302,7 @@ export const jogos = [
     mesa: "1",
     jogos: [
      { jogador1: "CHAPECÓ", jogador2: "FELIPE", placar: "0 x 0" },
-      { jogador1: "ADALTON", jogador2: "CHRISTIAN", placar: "0 x 0" },
+      { jogador1: "ADALTON", jogador2: "CHRISTIAN", placar: "3 x 0" },
       
     ],
   },
