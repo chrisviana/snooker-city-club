@@ -167,7 +167,8 @@ export default function ClassificacaoOuro() {
     { jogadorA: "ADALTON", jogadorB: "CHRISTIAN", placar: "3 x 2" },
     { jogadorA: "ADALTON", jogadorB: "GUILHERME", placar: "0 x 3" },
     { jogadorA: "FERNANDO", jogadorB: "RENATO", placar: "3 x 0" },
-    { jogadorA: "AUGUSTO", jogadorB: "EDUARDO", placar: "3 x 2" }
+    { jogadorA: "AUGUSTO", jogadorB: "EDUARDO", placar: "3 x 2" },
+    { jogador1: "EVERTON", jogador2: "RENATO", placar: "3 x 0" },
 
 
 
