@@ -179,9 +179,13 @@ export default function ClassificacaoOuro() {
   }, [])
 
   const jogadoresOrdenados = [...jogadores].sort((a, b) => {
-    // Colocar PEDRINHO e FABIANO nos últimos lugares
-    if (a.nome === "PEDRINHO" || a.nome === "FABIANO") return 1;
-    if (b.nome === "PEDRINHO" || b.nome === "FABIANO") return -1;
+    // FABIANO sempre por último
+    if (a.nome === "FABIANO") return 1;
+    if (b.nome === "FABIANO") return -1;
+    
+    // PEDRINHO sempre penúltimo (antes só do FABIANO)
+    if (a.nome === "PEDRINHO") return 1;
+    if (b.nome === "PEDRINHO") return -1;
     
     // Ordenação normal para os demais jogadores
     if (b.pontos !== a.pontos) return b.pontos - a.pontos
