@@ -406,6 +406,261 @@ export default function ClassificacaoOuro() {
           </div>
         </div>
       </div>
+
+      {/* QUARTAS DE FINAIS - CHAVE C */}
+      <div className="mb-8">
+        <h3 className="text-xl font-bold text-center mb-4 bg-gray-800 text-white py-2">
+          QUARTAS DE FINAIS
+        </h3>
+        <h4 className="text-lg font-bold text-center mb-4">
+          CHAVE C
+        </h4>
+        <div className="overflow-x-auto">
+          <table className="w-full border-collapse border-2 border-black">
+            <thead>
+              <tr className="bg-yellow-300">
+                <th className="border border-black px-3 py-2 font-bold">JOGO</th>
+                <th className="border border-black px-3 py-2 font-bold">DATA</th>
+                <th className="border border-black px-3 py-2 font-bold">MESA 2</th>
+                <th className="border border-black px-3 py-2 font-bold" colSpan="5">CONFRONTO</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-black px-3 py-2 text-center font-bold">1</td>
+                <td className="border border-black px-3 py-2 text-center">07/07</td>
+                <td className="border border-black px-3 py-2 text-center">1º Chave A</td>
+                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center font-bold">X</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">2º Chave B</td>
+              </tr>
+              <tr>
+                <td className="border border-black px-3 py-2 text-center font-bold">2</td>
+                <td className="border border-black px-3 py-2 text-center">07/07</td>
+                <td className="border border-black px-3 py-2 text-center">1º Chave B</td>
+                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center font-bold">X</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">2º Chave A</td>
+              </tr>
+              <tr>
+                <td className="border border-black px-3 py-2 text-center font-bold">3</td>
+                <td className="border border-black px-3 py-2 text-center">07/07</td>
+                <td className="border border-black px-3 py-2 text-center">VENC. JOGO 1</td>
+                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center font-bold">X</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">VENC. JOGO 2</td>
+              </tr>
+              <tr>
+                <td className="border border-black px-3 py-2 text-center font-bold">4</td>
+                <td className="border border-black px-3 py-2 text-center">09/07</td>
+                <td className="border border-black px-3 py-2 text-center">PERD. JOGO 1</td>
+                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center font-bold">X</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center"></td>
+                <td className="border border-black px-3 py-2 text-center">PERD. JOGO 2</td>
+              </tr>
+              <tr>
+                <td className="border border-black px-3 py-2 text-center font-bold">5</td>
+                <td className="border border-black px-3 py-2 text-center">09/07</td>
+                <td className="border border-black px-3 py-2 text-center">VENC. JOGO 4</td>
+                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center font-bold">X</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center"></td>
+                <td className="border border-black px-3 py-2 text-center">PERD. JOGO 3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+        {/* Classificação Chave C */}
+        <div className="mt-4 grid grid-cols-2 gap-4">
+          <div>
+            <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">1º</div>
+            <div className="border border-black px-3 py-2 text-center">vencedor do 3º jogo</div>
+            <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">CLASSIFICADO</div>
+          </div>
+          <div>
+            <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">2º</div>
+            <div className="border border-black px-3 py-2 text-center">vencedor do 5º jogo</div>
+            <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">CLASSIFICADO</div>
+          </div>
+          <div>
+            <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">3º</div>
+            <div className="bg-red-300 border border-black px-3 py-2 text-center">perdedor do 4º jogo</div>
+            <div className="bg-red-300 border border-black px-3 py-2 text-center font-bold">ELIMINADO</div>
+          </div>
+          <div>
+            <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">4º</div>
+            <div className="bg-red-300 border border-black px-3 py-2 text-center">perdedor do 5º jogo</div>
+            <div className="bg-red-300 border border-black px-3 py-2 text-center font-bold">ELIMINADO</div>
+          </div>
+        </div>
+      </div>
+
+      {/* SEMI-FINAIS */}
+      <div className="mb-8">
+        <h3 className="text-xl font-bold text-center mb-4 bg-gray-800 text-white py-2">
+          SEMI-FINAIS
+        </h3>
+        <div className="overflow-x-auto">
+          <table className="w-full border-collapse border-2 border-black">
+            <thead>
+              <tr className="bg-yellow-300">
+                <th className="border border-black px-3 py-2 font-bold">JOGO</th>
+                <th className="border border-black px-3 py-2 font-bold">DATA</th>
+                <th className="border border-black px-3 py-2 font-bold">MESA 2</th>
+                <th className="border border-black px-3 py-2 font-bold" colSpan="5">CONFRONTO</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-black px-3 py-2 text-center font-bold">1</td>
+                <td className="border border-black px-3 py-2 text-center">14/07</td>
+                <td className="border border-black px-3 py-2 text-center">1º / 1º fase</td>
+                <td className="border border-black px-3 py-2 text-center">Guilherme</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center font-bold">X</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">2º Chave C</td>
+              </tr>
+              <tr>
+                <td className="border border-black px-3 py-2 text-center font-bold">2</td>
+                <td className="border border-black px-3 py-2 text-center">14/07</td>
+                <td className="border border-black px-3 py-2 text-center">2º / 1º fase</td>
+                <td className="border border-black px-3 py-2 text-center">Everton</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center font-bold">X</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">1º Chave C</td>
+              </tr>
+              <tr>
+                <td className="border border-black px-3 py-2 text-center font-bold">3</td>
+                <td className="border border-black px-3 py-2 text-center">14/07</td>
+                <td className="border border-black px-3 py-2 text-center">VENC. JOGO 1</td>
+                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center font-bold">X</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">VENC. JOGO 2</td>
+              </tr>
+              <tr>
+                <td className="border border-black px-3 py-2 text-center font-bold">4</td>
+                <td className="border border-black px-3 py-2 text-center">16/07</td>
+                <td className="border border-black px-3 py-2 text-center">PERD. JOGO 1</td>
+                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center font-bold">X</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center"></td>
+                <td className="border border-black px-3 py-2 text-center">PERD. JOGO 2</td>
+              </tr>
+              <tr>
+                <td className="border border-black px-3 py-2 text-center font-bold">5</td>
+                <td className="border border-black px-3 py-2 text-center">16/07</td>
+                <td className="border border-black px-3 py-2 text-center">VENC. JOGO 4</td>
+                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center font-bold">X</td>
+                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center"></td>
+                <td className="border border-black px-3 py-2 text-center">PERD. JOGO 3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+        {/* Classificação Semi-finais */}
+        <div className="mt-4 grid grid-cols-2 gap-4">
+          <div>
+            <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">1º</div>
+            <div className="border border-black px-3 py-2 text-center">vencedor do 3º jogo</div>
+            <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">CLASSIFICADO</div>
+          </div>
+          <div>
+            <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">2º</div>
+            <div className="border border-black px-3 py-2 text-center">vencedor do 5º jogo</div>
+            <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">CLASSIFICADO</div>
+          </div>
+          <div>
+            <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">3º</div>
+            <div className="bg-red-300 border border-black px-3 py-2 text-center">perdedor do 4º jogo</div>
+            <div className="bg-red-300 border border-black px-3 py-2 text-center font-bold">ELIMINADO</div>
+          </div>
+          <div>
+            <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">4º</div>
+            <div className="bg-red-300 border border-black px-3 py-2 text-center">perdedor do 5º jogo</div>
+            <div className="bg-red-300 border border-black px-3 py-2 text-center font-bold">ELIMINADO</div>
+          </div>
+        </div>
+      </div>
+
+      {/* FINAL */}
+      <div className="mb-8">
+        <h3 className="text-xl font-bold text-center mb-4 bg-black text-white py-2">
+          FINAL - 24/07
+        </h3>
+        <div className="overflow-x-auto">
+          <table className="w-full border-collapse border-2 border-black">
+            <tbody>
+              <tr>
+                <td className="border border-black px-6 py-4 text-center font-bold text-lg">1º Colocado</td>
+                <td className="border border-black px-6 py-4 text-center font-bold text-xl">X</td>
+                <td className="border border-black px-6 py-4 text-center font-bold text-lg">2º Colocado</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      {/* CLASSIFICAÇÃO FINAL */}
+      <div className="mb-8">
+        <h3 className="text-xl font-bold text-center mb-4 bg-black text-white py-2">
+          CLASSIFICAÇÃO FINAL
+        </h3>
+        <div className="overflow-x-auto">
+          <table className="w-full border-collapse border-2 border-black">
+            <tbody>
+              <tr>
+                <td className="border border-black px-6 py-4 text-center font-bold text-lg bg-yellow-400">CAMPEÃO</td>
+                <td className="border border-black px-6 py-4 text-center"></td>
+              </tr>
+              <tr>
+                <td className="border border-black px-6 py-4 text-center font-bold text-lg bg-gray-300">VICE-CAMPEÃO</td>
+                <td className="border border-black px-6 py-4 text-center"></td>
+              </tr>
+              <tr>
+                <td className="border border-black px-6 py-4 text-center font-bold text-lg bg-yellow-600 text-white">3º LUGAR</td>
+                <td className="border border-black px-6 py-4 text-center font-bold">3º Colocado</td>
+              </tr>
+              <tr>
+                <td className="border border-black px-6 py-4 text-center font-bold text-lg bg-gray-500 text-white">4º LUGAR</td>
+                <td className="border border-black px-6 py-4 text-center font-bold">4º Colocado</td>
+              </tr>
+              <tr>
+                <td className="border border-black px-6 py-4 text-center font-bold text-lg bg-green-600 text-white">MAIOR TACADA</td>
+                <td className="border border-black px-6 py-4 text-center"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
       <div className="overflow-x-auto">
         <table className="w-full border-collapse">
           <thead className="bg-green-700 text-white">
