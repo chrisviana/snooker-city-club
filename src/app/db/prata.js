@@ -238,7 +238,7 @@ export const jogos = [
     mesa: "2",
     jogos: [
         { jogador1: "JAIR MANIQUE", jogador2: "AUGUSTO", placar: "0 x 3" },
-         { jogador1: "PAULO SERGIO", jogador2: "CHAPECÓ", placar: "0 x 0" },
+         { jogador1: "PAULO SERGIO", jogador2: "CHAPECÓ", placar: "3 x 1" },
         
     ],
   },
@@ -292,7 +292,7 @@ export const jogos = [
     data: "19/06/2025",
     mesa: "2",
     jogos: [
-      { jogador1: "PAULO SERGIO", jogador2: "JAIR MANIQUE", placar: "0 x 0" },
+      { jogador1: "PAULO SERGIO", jogador2: "JAIR MANIQUE", placar: "0 x 3" },
      { jogador1: "GUILHERME MELLER", jogador2: "AUGUSTO", placar: "3 x 2" },
     
     ],
@@ -301,7 +301,7 @@ export const jogos = [
     data: "23/06/2025",
     mesa: "1",
     jogos: [
-     { jogador1: "CHAPECÓ", jogador2: "FELIPE", placar: "0 x 0" },
+     { jogador1: "CHAPECÓ", jogador2: "FELIPE", placar: "0 x 3" },
       { jogador1: "ADALTON", jogador2: "CHRISTIAN", placar: "3 x 0" },
       
     ],

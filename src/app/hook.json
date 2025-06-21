@@ -1,0 +1,17 @@
+{
+    "filter": {
+        "status": [
+            "invoiced"
+        ],
+        "type": "FromWorkflow"
+    },
+    "hook": {
+        "url": "https://electrolux.myvtex.com/v1/orderservice/emails",
+        "headers": {
+            "content-type": "application/json",
+            "x-vtex-api-appKey": "",
+            "x-vtex-api-appToken": "",
+            "Authorization": "Bearer TypPAoc%5p"
+        }
+    }
+}
