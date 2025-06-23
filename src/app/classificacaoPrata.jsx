@@ -260,7 +260,7 @@ export default function ClassificacaoOuro() {
                 <td className="border border-black px-3 py-2 text-center font-bold">4</td>
                 <td className="border border-black px-3 py-2 text-center">01/07</td>
                 <td className="border border-black px-3 py-2 text-center">PERD. JOGO 1</td>
-                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">Paulo Sergio</td>
                 <td className="border border-black px-3 py-2 text-center">0</td>
                 <td className="border border-black px-3 py-2 text-center font-bold">X</td>
                 <td className="border border-black px-3 py-2 text-center">0</td>
