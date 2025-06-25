@@ -286,7 +286,7 @@ export default function ClassificacaoOuro() {
         <div className="mt-4 grid grid-cols-2 gap-4">
           <div>
             <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">1º</div>
-            <div className="border border-black px-3 py-2 text-center">vencedor do 3º jogo</div>
+            <div className="border border-black px-3 py-2 text-center">Filipe</div>
             <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">CLASSIFICADO</div>
           </div>
           <div>
