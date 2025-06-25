@@ -105,6 +105,9 @@ export default function ClassificacaoOuro() {
       { jogadorA: "MACARINI", jogadorB: "PAULISTA", placar: "3 x 0" },
       { jogadorA: "GUILHERME", jogadorB: "MACARINI", placar: "1 x 3" },
       { jogadorA: "CLAUDINO", jogadorB: "JUAREZ", placar: "3 x 0" },
+      { jogadorA: "CESAR", jogadorB: "MACARINI", placar: "1 x 3" },
+      { jogadorA: "CLAUDINO", jogadorB: "CESAR", placar: "1 x 3" },
+
       // ... (deixe vazio até começar o campeonato)
     ]
 

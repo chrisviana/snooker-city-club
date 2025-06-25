@@ -239,9 +239,9 @@ export default function ClassificacaoOuro() {
                 <td className="border border-black px-3 py-2 text-center">24/06</td>
                 <td className="border border-black px-3 py-2 text-center">5º</td>
                 <td className="border border-black px-3 py-2 text-center">Christian</td>
-                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center">1</td>
                 <td className="border border-black px-3 py-2 text-center font-bold">X</td>
-                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center">3</td>
                 <td className="border border-black px-3 py-2 text-center">Jair</td>
                 <td className="border border-black px-3 py-2 text-center">8º</td>
               </tr>
@@ -250,10 +250,10 @@ export default function ClassificacaoOuro() {
                 <td className="border border-black px-3 py-2 text-center">24/06</td>
                 <td className="border border-black px-3 py-2 text-center">VENC. JOGO 1</td>
                 <td className="border border-black px-3 py-2 text-center">Filipe</td>
-                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center">3</td>
                 <td className="border border-black px-3 py-2 text-center font-bold">X</td>
-                <td className="border border-black px-3 py-2 text-center">0</td>
-                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">2</td>
+                <td className="border border-black px-3 py-2 text-center">Jair</td>
                 <td className="border border-black px-3 py-2 text-center">VENC. JOGO 2</td>
               </tr>
               <tr>
@@ -264,7 +264,7 @@ export default function ClassificacaoOuro() {
                 <td className="border border-black px-3 py-2 text-center">0</td>
                 <td className="border border-black px-3 py-2 text-center font-bold">X</td>
                 <td className="border border-black px-3 py-2 text-center">0</td>
-                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">Christian</td>
                 <td className="border border-black px-3 py-2 text-center">PERD. JOGO 2</td>
               </tr>
               <tr>
