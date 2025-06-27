@@ -613,7 +613,7 @@ export default function ClassificacaoOuro() {
       {/* FINAL */}
       <div className="mb-8">
         <h3 className="text-xl font-bold text-center mb-4 bg-black text-white py-2">
-          FINAL - 24/07
+          FINAL - 31/07
         </h3>
         <div className="overflow-x-auto">
           <table className="w-full border-collapse border-2 border-black">
