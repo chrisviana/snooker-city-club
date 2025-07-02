@@ -361,9 +361,9 @@ export default function ClassificacaoOuro() {
                 <td className="border border-black px-3 py-2 text-center">02/07</td>
                 <td className="border border-black px-3 py-2 text-center">PERD. JOGO 1</td>
                 <td className="border border-black px-3 py-2 text-center">Eduardo</td>
-                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center">2</td>
                 <td className="border border-black px-3 py-2 text-center font-bold">X</td>
-                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center">3</td>
                 <td className="border border-black px-3 py-2 text-center">Fernando</td>
                 <td className="border border-black px-3 py-2 text-center">PERD. JOGO 2</td>
               </tr>
@@ -371,7 +371,7 @@ export default function ClassificacaoOuro() {
                 <td className="border border-black px-3 py-2 text-center font-bold">5</td>
                 <td className="border border-black px-3 py-2 text-center">02/07</td>
                 <td className="border border-black px-3 py-2 text-center">VENC. JOGO 4</td>
-                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">Fernando</td>
                 <td className="border border-black px-3 py-2 text-center">0</td>
                 <td className="border border-black px-3 py-2 text-center font-bold">X</td>
                 <td className="border border-black px-3 py-2 text-center">0</td>
@@ -396,7 +396,7 @@ export default function ClassificacaoOuro() {
           </div>
           <div>
             <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">3º</div>
-            <div className="bg-red-300 border border-black px-3 py-2 text-center">perdedor do 4º jogo</div>
+            <div className="bg-red-300 border border-black px-3 py-2 text-center">Eduardo</div>
             <div className="bg-red-300 border border-black px-3 py-2 text-center font-bold">ELIMINADO</div>
           </div>
           <div>
