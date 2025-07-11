@@ -294,9 +294,9 @@ export default function ClassificacaoOuro() {
                 <td className="border border-black px-3 py-2 text-center">10/07</td>
                 <td className="border border-black px-3 py-2 text-center">VENC. JOGO 4</td>
                 <td className="border border-black px-3 py-2 text-center">Paulista</td>
-                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center">3</td>
                 <td className="border border-black px-3 py-2 text-center font-bold">X</td>
-                <td className="border border-black px-3 py-2 text-center">0</td>
+                <td className="border border-black px-3 py-2 text-center">2</td>
                 <td className="border border-black px-3 py-2 text-center">Magilli</td>
                 <td className="border border-black px-3 py-2 text-center">PERD. JOGO 3</td>
               </tr>
@@ -313,17 +313,17 @@ export default function ClassificacaoOuro() {
           </div>
           <div>
             <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">2º</div>
-            <div className="border border-black px-3 py-2 text-center">vencedor do 5º jogo</div>
+            <div className="border border-black px-3 py-2 text-center">Paulista</div>
             <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">CLASSIFICADO</div>
           </div>
           <div>
             <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">3º</div>
-            <div className="bg-red-300 border border-black px-3 py-2 text-center">perdedor do 4º jogo</div>
+            <div className="bg-red-300 border border-black px-3 py-2 text-center">Mangilli</div>
             <div className="bg-red-300 border border-black px-3 py-2 text-center font-bold">ELIMINADO</div>
           </div>
           <div>
             <div className="bg-yellow-300 border border-black px-3 py-2 text-center font-bold">4º</div>
-            <div className="bg-red-300 border border-black px-3 py-2 text-center">perdedor do 5º jogo</div>
+            <div className="bg-red-300 border border-black px-3 py-2 text-center">W.O</div>
             <div className="bg-red-300 border border-black px-3 py-2 text-center font-bold">ELIMINADO</div>
           </div>
         </div>
@@ -356,7 +356,7 @@ export default function ClassificacaoOuro() {
                 <td className="border border-black px-3 py-2 text-center">0</td>
                 <td className="border border-black px-3 py-2 text-center font-bold">X</td>
                 <td className="border border-black px-3 py-2 text-center">0</td>
-                <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
+                <td className="border border-black px-3 py-2 text-center">Paulista</td>
                 <td className="border border-black px-3 py-2 text-center">2º Chave B</td>
               </tr>
               <tr>
