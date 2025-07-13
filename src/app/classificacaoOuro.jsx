@@ -450,7 +450,7 @@ export default function ClassificacaoOuro() {
             <tbody>
               <tr>
                 <td className="border border-black px-3 py-2 text-center font-bold">1</td>
-                <td className="border border-black px-3 py-2 text-center">21/07</td>
+                <td className="border border-black px-3 py-2 text-center">A definir</td>
                 <td className="border border-black px-3 py-2 text-center">1º / 1º fase</td>
                 <td className="border border-black px-3 py-2 text-center">Macarini</td>
                 <td className="border border-black px-3 py-2 text-center">0</td>
@@ -461,7 +461,7 @@ export default function ClassificacaoOuro() {
               </tr>
               <tr>
                 <td className="border border-black px-3 py-2 text-center font-bold">2</td>
-                <td className="border border-black px-3 py-2 text-center">21/07</td>
+                <td className="border border-black px-3 py-2 text-center">A definir</td>
                 <td className="border border-black px-3 py-2 text-center">2º / 1º fase</td>
                 <td className="border border-black px-3 py-2 text-center">Paulo</td>
                 <td className="border border-black px-3 py-2 text-center">0</td>
@@ -472,7 +472,7 @@ export default function ClassificacaoOuro() {
               </tr>
               <tr>
                 <td className="border border-black px-3 py-2 text-center font-bold">3</td>
-                <td className="border border-black px-3 py-2 text-center">21/07</td>
+                <td className="border border-black px-3 py-2 text-center">A definir</td>
                 <td className="border border-black px-3 py-2 text-center">VENC. JOGO 1</td>
                 <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
                 <td className="border border-black px-3 py-2 text-center">0</td>
@@ -483,7 +483,7 @@ export default function ClassificacaoOuro() {
               </tr>
               <tr>
                 <td className="border border-black px-3 py-2 text-center font-bold">4</td>
-                <td className="border border-black px-3 py-2 text-center">23/07</td>
+                <td className="border border-black px-3 py-2 text-center">A definir</td>
                 <td className="border border-black px-3 py-2 text-center">PERD. JOGO 1</td>
                 <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
                 <td className="border border-black px-3 py-2 text-center">0</td>
@@ -494,7 +494,7 @@ export default function ClassificacaoOuro() {
               </tr>
               <tr>
                 <td className="border border-black px-3 py-2 text-center font-bold">5</td>
-                <td className="border border-black px-3 py-2 text-center">23/07</td>
+                <td className="border border-black px-3 py-2 text-center">A definir</td>
                 <td className="border border-black px-3 py-2 text-center">VENC. JOGO 4</td>
                 <td className="border border-black px-3 py-2 text-center">Nome do Competidor</td>
                 <td className="border border-black px-3 py-2 text-center">0</td>
