@@ -377,7 +377,7 @@ export default function ClassificacaoOuro() {
                 <td className="border border-black px-3 py-2 text-center">Claudino</td>
                 <td className="border border-black px-3 py-2 text-center">3</td>
                 <td className="border border-black px-3 py-2 text-center font-bold">X</td>
-                <td className="border border-black px-3 py-2 text-center">1</td>
+                <td className="border border-black px-3 py-2 text-center">2</td>
                 <td className="border border-black px-3 py-2 text-center">Cesar</td>
                 <td className="border border-black px-3 py-2 text-center">VENC. JOGO 2</td>
               </tr>
